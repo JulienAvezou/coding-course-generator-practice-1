@@ -1,0 +1,24 @@
+{
+  "name": "coding-course-generator-practice-1",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js",
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "test": "node --test",
+    "validate:milestone": "node scripts/validate-milestone.js",
+    "golden-path": "npm run lint && npm run format && npm run test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.5.1"
+  }
+}
