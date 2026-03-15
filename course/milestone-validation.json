@@ -1,0 +1,83 @@
+{
+  "checkName": "Milestone Validation",
+  "milestones": [
+    {
+      "milestoneId": "change-and-run-the-starter-app",
+      "title": "Change and run the starter app",
+      "branchPrefix": "milestone-01-",
+      "validatorId": "starter-change",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "The visible status message in public/app.js is no longer the untouched starter text."
+      ]
+    },
+    {
+      "milestoneId": "store-and-format-one-book",
+      "title": "Store and format one book",
+      "branchPrefix": "milestone-02-",
+      "validatorId": "one-book-summary",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export createBookSummary(book) and include the title, author, and status in the returned summary."
+      ]
+    },
+    {
+      "milestoneId": "decide-what-happens-with-conditionals",
+      "title": "Decide what happens with conditionals",
+      "branchPrefix": "milestone-03-",
+      "validatorId": "reading-status-conditionals",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export describeReadingStatus(status) and return different messages for valid and invalid statuses."
+      ]
+    },
+    {
+      "milestoneId": "manage-many-books-with-arrays-objects-and-loops",
+      "title": "Manage many books with arrays, objects, and loops",
+      "branchPrefix": "milestone-04-",
+      "validatorId": "sample-library-collection",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export createSampleLibrary() and return at least three book objects with title, author, and status."
+      ]
+    },
+    {
+      "milestoneId": "clean-up-user-input-with-parsing-and-regex",
+      "title": "Clean up user input with parsing and regular expressions",
+      "branchPrefix": "milestone-05-",
+      "validatorId": "parse-book-input",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export parseBookInput(rawInput), handle invalid input clearly, and add tests/parsing.test.js."
+      ]
+    },
+    {
+      "milestoneId": "save-search-and-organize-your-library",
+      "title": "Save, search, and organize your library",
+      "branchPrefix": "milestone-06-",
+      "validatorId": "save-search-library",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Create data/library.json and export filterBooksByStatus(books, status) plus sortBooksByTitle(books)."
+      ]
+    },
+    {
+      "milestoneId": "understand-the-web-and-build-a-books-api",
+      "title": "Understand the web and build a books API",
+      "branchPrefix": "milestone-07-",
+      "validatorId": "books-api-routes",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": ["Add GET and POST /api/books routes that return JSON responses."]
+    },
+    {
+      "milestoneId": "build-the-browser-ui-and-finish-the-project",
+      "title": "Build the browser UI and finish the project",
+      "branchPrefix": "milestone-08-",
+      "validatorId": "browser-ui-finish",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Add a form in public/index.html, fetch-based UI logic in public/app.js, a books table in db/schema.sql, and update the README."
+      ]
+    }
+  ]
+}
