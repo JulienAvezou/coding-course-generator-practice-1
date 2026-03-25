@@ -1,0 +1,113 @@
+{
+  "checkName": "Milestone Validation",
+  "milestones": [
+    {
+      "milestoneId": "change-and-run-the-starter-app",
+      "title": "Change and run the starter app",
+      "branchPrefix": "milestone-01-",
+      "validatorId": "starter-change",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "The visible status message in public/app.js is no longer the untouched starter text."
+      ]
+    },
+    {
+      "milestoneId": "store-one-book-with-variables-and-objects",
+      "title": "Store one book with variables and objects",
+      "branchPrefix": "milestone-02-",
+      "validatorId": "one-book-object",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export sampleBook from src/library.js and give it title, author, year, and status properties."
+      ]
+    },
+    {
+      "milestoneId": "store-and-format-one-book",
+      "title": "Store and format one book",
+      "branchPrefix": "milestone-03-",
+      "validatorId": "one-book-summary",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export createBookSummary(book) and include the title, author, and status in the returned summary."
+      ]
+    },
+    {
+      "milestoneId": "decide-what-happens-with-conditionals",
+      "title": "Decide what happens with conditionals",
+      "branchPrefix": "milestone-04-",
+      "validatorId": "reading-status-conditionals",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export describeReadingStatus(status) and return different messages for valid and invalid statuses."
+      ]
+    },
+    {
+      "milestoneId": "manage-many-books-with-arrays-objects-and-loops",
+      "title": "Manage many books with arrays, objects, and loops",
+      "branchPrefix": "milestone-05-",
+      "validatorId": "sample-library-collection",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export createSampleLibrary() and return at least three book objects with title, author, and status."
+      ]
+    },
+    {
+      "milestoneId": "clean-up-user-input-with-parsing-and-regex",
+      "title": "Clean up user input with parsing and regular expressions",
+      "branchPrefix": "milestone-06-",
+      "validatorId": "parse-book-input",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export parseBookInput(rawInput), handle invalid input clearly, and add tests/parsing.test.js."
+      ]
+    },
+    {
+      "milestoneId": "save-search-and-organize-your-library",
+      "title": "Save, search, and organize your library",
+      "branchPrefix": "milestone-07-",
+      "validatorId": "save-search-library",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Export filterBooksByStatus(books, status) and sortBooksByTitle(books), and add data/library.json."
+      ]
+    },
+    {
+      "milestoneId": "understand-the-web-and-build-a-books-api",
+      "title": "Understand the web and build a books API",
+      "branchPrefix": "milestone-08-",
+      "validatorId": "books-api-routes",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": ["Add GET and POST /api/books routes in server/index.js."]
+    },
+    {
+      "milestoneId": "build-an-accessible-library-page-with-html-and-css",
+      "title": "Build an accessible library page with HTML and CSS",
+      "branchPrefix": "milestone-09-",
+      "validatorId": "html-css-library-page",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Add a form and accessible label structure in public/index.html, and include a responsive rule in public/styles.css."
+      ]
+    },
+    {
+      "milestoneId": "connect-the-browser-ui-with-dom-events-and-fetch",
+      "title": "Connect the browser UI with DOM events and fetch",
+      "branchPrefix": "milestone-10-",
+      "validatorId": "dom-events-fetch-ui",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Use DOM events and fetch in public/app.js so the browser UI can load and submit book data."
+      ]
+    },
+    {
+      "milestoneId": "save-books-in-sqlite-and-polish-the-project",
+      "title": "Save books in SQLite and polish the project",
+      "branchPrefix": "milestone-11-",
+      "validatorId": "sqlite-final-polish",
+      "requiredCheckName": "Milestone Validation",
+      "successCriteria": [
+        "Define a books table in db/schema.sql and update the README so it describes the finished project."
+      ]
+    }
+  ]
+}
