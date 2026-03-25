@@ -1,0 +1,8 @@
+-- Add your SQLite schema in the database milestone.
+-- Example:
+-- CREATE TABLE books (
+--   id INTEGER PRIMARY KEY,
+--   title TEXT NOT NULL,
+--   author TEXT NOT NULL,
+--   status TEXT NOT NULL
+-- );
